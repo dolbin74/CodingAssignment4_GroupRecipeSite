@@ -1,0 +1,85 @@
+/* ------------------------------
+   THE GLOBAL PAGE STYLES
+--------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf8f2;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Center all main headings */
+h1, h2 {
+  color: #8b3a0e;
+  text-align: center;
+}
+
+/* ------------------------------
+   FLEXBOX LAYOUT
+--------------------------------*/
+.wrapper {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Each box inside a wrapper */
+.wrapper div {
+  flex: 1;
+  padding: 20px;
+
+  /* TURN THIS ON WHILE BUILDING. TURN OFF AFTER */
+ /* NOTE: I am choosing to not turn this off. Using it as a design element. */
+  border: double cornflowerblue;
+}
+
+/* ------------------------------
+   RATE THIS RECIPE
+--------------------------------*/
+.rate {
+  color: #b22222;
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid #b22222;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+/* ------------------------------
+   CONVERSION INPUTS
+--------------------------------*/
+input[type="text"],
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* ------------------------------
+   INGREDIENTS + DIRECTIONS
+--------------------------------*/
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #444;
+  font-size: 0.9em;
+}
