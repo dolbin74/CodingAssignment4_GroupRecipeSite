@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="David Anna">
+  <title>Ranch Mississippi Roast</title>
+  <meta name="description" content="My Recipe Page – Coding Assignment 3.">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="box1">
+    <h1>Ranch Mississippi Roast</h1>
+    <p>Everyone Loves It</p>
+    <h2>Slow Cooker Recipe</h2>
+    <p>This recipe is adapted from the Hidden Valley Recipe Website @ www.hiddenvalley.com</p>
+  </div>
+
+  <div class="box2">
+    <h2 class="rate">Rate This Recipe</h2>
+    <form>
+      <fieldset style="width: 250px;">
+        <legend>How difficult is this recipe?</legend>
+
+        <label><input type="radio" name="difficulty" value="easy"> Easy</label>
+        <label><input type="radio" name="difficulty" value="medium"> Intermediate</label>
+        <label><input type="radio" name="difficulty" value="hard"> Hard</label>
+
+      </fieldset>
+    </form>
+
+    <h2>Conversion</h2>
+    <form>
+      <input type="text" id="tblspn" name="tblspn">
+      =
+      <input type="text" id="cups" name="cups">
+    </form>
+  </div>
+
+</div>
+
+<div class="wrapper">
+
+  <div class="box3">
+    <h2>Ingredients</h2>
+    <ul>
+      <li>1 pound Boneless Chuck Roast</li>
+      <li>Kosher salt and freshly ground black pepper, to taste</li>
+      <li>1/4 cup all-purpose flour</li>
+      <li>3 tablespoons olive oil</li>
+      <li>1/2 cup beef broth</li>
+      <li>1 packet seasoning mix</li>
+      <li>1 stick unsalted butter</li>
+      <li>8 whole pepperoncini</li>
+    </ul>
+  </div>
+
+  <div class="box4">
+    <h2>Directions</h2>
+    <ol>
+      <li>Season roast with salt, pepper, and flour.</li>
+      <li>Sear in hot oil until browned.</li>
+      <li>Place in slow cooker with broth, seasoning, butter, and pepperoncini.</li>
+      <li>Cook on low 7–8 hours, shred, and serve.</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p><a href="../index.html">Back to the Main Page</a></p>
+  <p>This page created as academic activity only.</p>
+  <p><a href="https://www.bellevuecollege.edu">Bellevue College</a></p>
+</footer>
+
+</body>
+</html>
