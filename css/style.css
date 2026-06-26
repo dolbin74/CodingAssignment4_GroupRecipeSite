@@ -9,10 +9,10 @@ body {
   line-height: 1.6;
 }
 
-/* Center all main headings */
+/* Left Allign all main headings */
 h1, h2 {
   color: #8b3a0e;
-  text-align: center;
+  text-align: left;
 }
 
 /* ------------------------------
@@ -39,7 +39,7 @@ h1, h2 {
 --------------------------------*/
 .rate {
   color: #b22222;
-  text-align: center;
+  text-align: left;
 }
 
 fieldset {
@@ -78,7 +78,7 @@ ol {
    FOOTER
 --------------------------------*/
 footer {
-  text-align: center;
+  text-align: left;
   padding: 20px;
   color: #444;
   font-size: 0.9em;
